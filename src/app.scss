@@ -1,0 +1,41 @@
+
+// This is the main SASS file of your app.
+//
+// Just like the 'app.scss' file for scripts, all you need to import is here.
+//
+// Avoid adding CSS rules to this file. Instead, create additional files to
+// organize your code. 'scaffolding', 'components', 'forms', and 'timeline' are
+// examples of good file names. Don't feel tied up to those names, though. Be
+// creative, but be organised.
+
+// --
+// Fonts
+// --
+//
+// This is just an example on how to load external (Google) fonts.
+// You may remove or replace the line above depending on your development
+// scenario.
+@import url("https://fonts.googleapis.com/css?family=Barlow:300,400,500|Work+Sans:300,400,700|Open+Sans:400,700|Titillium+Web:400,600");
+
+// --
+// Variables
+// --
+//
+// Importing the project-wide variables. This is also where you can override
+// variables defined by third-party libraries and frameworks, such as Bootstrap.
+@import "sass/variables";
+
+// --
+// Dependencies
+// --
+//
+// Finally, let's load the external dependencies.
+// In the example below we're importing only the Bootstrap grid. But you could
+// use the entire framework by using the following statement:
+//
+//     @import "~bootstrap/scss/bootstrap";
+//
+// Also, feel free to install (using npm, perhaps) and load additional
+// dependencies.
+@import "~bootstrap/scss/bootstrap";
+@import "sass/home";
