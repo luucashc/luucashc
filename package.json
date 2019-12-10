@@ -1,6 +1,6 @@
 {
   "name": "lucas-front-end",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "My web site",
   "main": "index.js",
   "scripts": {

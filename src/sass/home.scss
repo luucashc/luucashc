@@ -56,7 +56,7 @@ p, a {
   }
 }
 .about {
-    padding: 100px 100px 100px;
+    padding: 200px 100px 0;
 
     h2 {
         color: #FFC200;
@@ -65,9 +65,10 @@ p, a {
 .art {
     background-image: url("images/about.jpg");
     background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    background-position: right;
+    background-size: auto;
     background-repeat: no-repeat;
+    height: 100vh;
     &::before {
       background-color: rgba(23, 23, 23, 0.23);
       bottom: 0;
@@ -82,22 +83,27 @@ p, a {
 
 /*  */
 .skills {
-    background-image: url("images/about.jpg");
-    background-attachment: fixed;
-    background-position: center;
+    // background-image: url("images/about.jpg");
+    // background-attachment: fixed;
+    // background-position: center;
   padding-top: 70px;
   padding-bottom: 100px;
   &_grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
-    grid-gap: 30px;
+    // display: grid;
+    // grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    // grid-gap: 30px;
 
     div {
-      align-items: center;
-      background-color: $white;
-      box-shadow: 0 1px 3px 0 rgba(21,27,38,.15);
-      display: flex;
-      position: relative;
+        display: flex;
+        flex-direction: column;
+
+        div {
+            margin: 0 auto; 
+        }
+      // background-color: $white;
+      // box-shadow: 0 1px 3px 0 rgba(21,27,38,.15);
+      // display: flex;
+      // position: relative;
     /*&::after {
         border: 15px solid transparent;
         border-right-color: #7d1aff;
@@ -107,6 +113,10 @@ p, a {
         position: absolute;
         right: -15px;
       }*/
+
+      i {
+          font-size: 85px;
+      }
 
       p {
         text-align: center;
