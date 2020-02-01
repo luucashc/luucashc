@@ -1,180 +1,137 @@
 html {
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
 }
 body {
   background-color: $white;
 }
 h1, h2 {
-  font-family: $font-titillium-web;
-  font-weight: 600;
-  text-transform: uppercase;
+  font-family: $font-ubuntu;
+  font-weight: 400;
 }
-h1 {
+h4 {
   color: $white;
-  font-size: 30px;
 }
 h2 {
   color: $black;
-  font-size: 55px;
 }
 p, a {
-  color: #160E1B;
+  color: $white;
   font-size: 18px;
-  font-family: $font-titillium-web;
+  font-family: $font-ubuntu;
   font-weight: 300;
   line-height: 30px;
 }
 
 /* First block */
 .home {
-    background-image: url("images/fundo.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  height: 100vh;
-  padding-top: 150px;
-  &_links {
-    img {
-      height: 40px;
-      width: 40px;
-    }
-  }
-
-  p {
-    color: $white;
-  }
-
-  &::before {
-    background-color: rgba(23, 23, 23, 0.7);
-    bottom: 0;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-}
-.about {
-    padding: 200px 100px 0;
-
-    h2 {
-        color: #FFC200;
-    }
-}
-.art {
-    background-image: url("images/about.jpg");
-    background-attachment: fixed;
-    background-position: right;
-    background-size: auto;
-    background-repeat: no-repeat;
-    height: 100vh;
-    &::before {
-      background-color: rgba(23, 23, 23, 0.23);
-      bottom: 0;
-      content: "";
-      left: 0;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-}
-
-
-/*  */
-.skills {
-    // background-image: url("images/about.jpg");
     // background-attachment: fixed;
-    // background-position: center;
-  padding-top: 70px;
-  padding-bottom: 100px;
-  &_grid {
-    // display: grid;
-    // grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
-    // grid-gap: 30px;
-
-    div {
-        display: flex;
-        flex-direction: column;
-
-        div {
-            margin: 0 auto; 
-        }
-      // background-color: $white;
-      // box-shadow: 0 1px 3px 0 rgba(21,27,38,.15);
-      // display: flex;
-      // position: relative;
-    /*&::after {
-        border: 15px solid transparent;
-        border-right-color: #7d1aff;
+    background-image: url("images/fundo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    padding: 180px 0 150px 0;
+    position: relative;
+    &::before {
+        background-color: rgba(23, 23, 23, 0.7);
+        bottom: 0;
         content: "";
-        transform: rotate(135deg);
-        top: -15px;
+        left: 0;
         position: absolute;
-        right: -15px;
-      }*/
-
-      i {
-          font-size: 85px;
-      }
-
-      p {
-        text-align: center;
-        width: 100%;
-      }
+        right: 0;
+        top: 0;
     }
-  }
 
-  h2 {
-    margin-left: 20px;
-    margin-bottom: 50px;
-  }
+    &_text {
+        padding-top: 100px;
+    }
 }
 
-/* */
-.career {
-  background-color: $white;
-  border-bottom: 1px solid #CDCDCD;
-  padding-top: 70px;
-  padding-bottom: 100px;
-  &_block {
-    background-color: $white;
-    box-shadow: 0 1px 3px 0 rgb(158, 158, 158);
-    border-radius: 7px;
-    margin-bottom: 50px;
-    width: 300px;
+.skills {
+    padding-bottom: 100px;
 
-    .block_image {
-      border-bottom: 1px solid #CDCDCD;
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 15px;
+    &_icons {
+        display: flex;
 
-      img {
-        padding-bottom: 100px;
-        padding-top: 100px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 200px;
-      }
+        i {
+            font-size: 100px;
+            margin: auto;
+        }
+    }
 
-      p {
-        font-size: 15px;
-        margin-bottom: 0;
-      }
+    h1 {
+        font-size: 50px;
+        margin-bottom: 70px;
     }
 
     p {
-      font-size: 15px;
+        color: $black;
     }
-  }
+}
 
-  h2 {
-    margin-left: 20px;
-    padding-bottom: 50px;
-  }
+.career {
+    background-color: #F7F7F7;
+    border-top: solid 1px #CDCDCD;
+    border-bottom: solid 1px #CDCDCD;
+    padding-top: 100px;
+    padding-bottom: 200px;
 
-  div {
-    justify-content: center;
-  }
+    &_box {
+        background-color: #326CE5;
+        padding: 50px 20px;
+    }
+
+    &_art {
+        background-image: url("images/business.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin-bottom: 70px;
+    }
+
+    h3 {
+        color: $white;
+    }
+}
+
+.contact {
+    padding: 100px 0;
+
+    &_details {
+        display: grid;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin-bottom: 70px;
+    }
+
+    a {
+        color: $black;
+        font-size: 23px;
+        font-weight: 500;
+        margin-bottom: 50px;
+
+        &:hover {
+            text-decoration: none;
+            color: #326CE5;
+        }
+    }
+}
+
+footer {
+    background-color: #F7F7F7;
+    border-top: solid 1px #CDCDCD;
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 10px;
+
+    p {
+        color: $black;
+    }
 }
