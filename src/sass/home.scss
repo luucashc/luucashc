@@ -82,13 +82,6 @@ p, a {
         padding: 50px 20px;
     }
 
-    &_art {
-        background-image: url("images/business.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
     h1 {
         font-size: 50px;
         margin-bottom: 70px;
@@ -98,12 +91,25 @@ p, a {
         color: $white;
     }
 }
+.career_art {
+    background-image: url("images/business.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
 
 .contact {
     padding: 100px 0;
 
     &_details {
         display: grid;
+    }
+
+    &_social {
+        i {
+            font-size: 50px;
+        }
     }
 
     h1 {
@@ -116,6 +122,10 @@ p, a {
         font-size: 23px;
         font-weight: 500;
         margin-bottom: 50px;
+
+        i {
+            color: #BA2B34;
+        }
 
         &:hover {
             text-decoration: none;
