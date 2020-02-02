@@ -11395,7 +11395,7 @@ a {
 /* First block */
 
 .home {
-  background-image: url(/images/fundo.jpg?3d0741f5e34f00411e96d1b3c9163e46);
+  background-image: url(./images/fundo.jpg?3d0741f5e34f00411e96d1b3c9163e46);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11464,7 +11464,7 @@ a {
 }
 
 .career_art {
-  background-image: url(/images/business.jpg?2880ed77cb0fc3451d9f9595a4b22e70);
+  background-image: url(./images/business.jpg?2880ed77cb0fc3451d9f9595a4b22e70);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11515,3 +11515,4 @@ footer {
 footer p {
   color: #151515;
 }
+
