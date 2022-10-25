@@ -1,6 +1,5 @@
 # Basic Web site
 
-## Descrição do Projeto
-Repositorio destinado para hospedar um site basico pessoal com as tecnologias e experiencias.
+https://luucashc.github.io/luucashc/
 
 [![@luucashc's Holopin board](https://holopin.me/luucashc)](https://holopin.io/@luucashc)
