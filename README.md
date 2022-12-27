@@ -1,4 +1,4 @@
-# Basic Web site
+# Welcome
 
 https://luucashc.github.io/luucashc/
 
