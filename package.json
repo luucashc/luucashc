@@ -1,0 +1,16 @@
+{
+  "name": "luucashc-v2",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/application/index.js"
+  },
+  "author": "Lucas Cardoso <lucashgcardoso1@gmail.com>",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2"
+  }
+}

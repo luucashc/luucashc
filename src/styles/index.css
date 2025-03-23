@@ -1,0 +1,132 @@
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h4,
+p,
+a {
+  font-family: "AmazonEmber","Helvetica", "Arial", sans-serif;
+}
+
+a {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+/* First block */
+.home {
+  background-image: url("../images/fundo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+  padding: 180px 0 150px 0;
+  position: relative;
+  height: 100vh;
+  &::before {
+    background-color: rgba(23, 23, 23, 0.7);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  div {
+    align-content: center;
+  }
+
+  h4 {
+    color: #ffffff;
+  }
+
+  p {
+    color: #ffffff;
+  }
+}
+
+.skills {
+  padding-bottom: 100px;
+
+  .skills_icons {
+    display: flex;
+
+    i {
+      color: #eaeded;
+      font-size: 100px;
+      margin: auto;
+    }
+  }
+
+  h1 {
+    color: #161d26;
+    font-size: 50px;
+    margin-bottom: 100px;
+  }
+
+  p {
+    color: #161d26;
+    font-weight: 600;
+  }
+}
+
+.career {
+  background-color: #eaeded;
+  border-top: solid 1px #cdcdcd;
+  border-bottom: solid 1px #cdcdcd;
+  padding-top: 100px;
+  padding-bottom: 200px;
+
+  h1 {
+    color: #161d26;
+    font-size: 50px;
+    margin-bottom: 100px;
+  }
+
+  h3 {
+    color: #161d26;
+  }
+
+  small {
+    color: #161d26;
+  }
+
+  p {
+    color: #161d26;
+  }
+}
+.career_art {
+  background-image: url("../images/business.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.business-footer {
+  height: 200px;
+  background-color: #161d26;
+}
+
+footer {
+  background-color: #161d26;
+  border-top: solid 1px #161d26;
+  height: 50px;
+  padding-left: 30px;
+  padding-top: 10px;
+
+  p {
+    color: #eaeded;
+  }
+}
