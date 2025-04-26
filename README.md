@@ -59,3 +59,5 @@ After, access on:
 
 [localhost:8080](http://localhost:8080)
 
+## Licence
+This project is licensed under the MIT License.
