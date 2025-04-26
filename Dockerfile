@@ -5,7 +5,10 @@ FROM nginx:alpine
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copia os arquivos do seu site para a pasta do Nginx
-COPY . /usr/share/nginx/html
+COPY ./public /usr/share/nginx/html
+
+# Ajusta as permissões dos arquivos copiados
+RUN chown -R nginx:nginx /usr/share/nginx/html
 
 # Expõe a porta 80 para acesso externo
 EXPOSE 80
