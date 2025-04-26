@@ -1,4 +1,12 @@
-<h1 align="center">Welcome to me GitHub profile</h1>
+## How to start
 
-### [luucashc.io](https://luucashc.github.io/luucashc/)
-  
+To start server run:
+
+```bash
+npm start
+```
+
+After, access on:
+
+[localhost:8080](http://localhost:8080)
+

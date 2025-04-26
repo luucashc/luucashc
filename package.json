@@ -1,16 +1,13 @@
 {
   "name": "luucashc-v2",
   "version": "1.0.0",
-  "description": "personal website",
-  "main": "index.js",
+  "description": "Personal website",
+  "main": "index.html",
   "scripts": {
-    "start": "node src/application/index.js"
+    "start": "docker run -d --name luucashc -v $(pwd):/usr/share/nginx/html -p 8080:80 nginx:alpine"
   },
   "author": "Lucas Cardoso <lucashgcardoso1@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "type": "module",
-  "dependencies": {
-    "bootstrap": "^5.3.3",
-    "express": "^4.19.2"
-  }
+  "dependencies": {}
 }

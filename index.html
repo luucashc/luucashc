@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8" />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
     />
     <link
       rel="stylesheet"
@@ -14,17 +12,17 @@
       integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="src/styles/index.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
     <title>homepage</title>
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row home">
-        <div class="col-md-4 offset-md-1">
-          <div class="d-flex justify-content-center mb-4">
+      <div class="row text-center text-md-start home">
+        <div class="col-12 col-md-4 offset-md-1 apresentation">
+          <div class="d-flex justify-content-center">
             <img
               class="rounded-circle"
-              src="src/images/foto.jpeg"
+              src="./src/images/foto-cracha.jpeg"
               alt="lucas"
               width="150"
               height="150"
@@ -35,12 +33,11 @@
             <p>Solution Architect</p>
           </div>
           <div class="d-flex justify-content-center">
-            <a href="https://github.com/luucashc" class="mr-3" target="_blank">
+            <a href="https://github.com/luucashc" target="_blank">
               <img src="src/images/logo/github.png" alt="git" width="35" />
             </a>
             <a
               href="https://www.linkedin.com/in/luucascardoso/"
-              class="mr-3"
               target="_blank"
             >
               <img
@@ -54,7 +51,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4 offset-md-1">
+        <div class="col-12 col-md-6 description">
           <p class="text-center">
             Graduated in systems analysis and development, I've been working
             with software since 2018. I have experience with cloud computing (<a
@@ -73,143 +70,143 @@
     <div class="container skills">
       <h1>Skills</h1>
       <div class="row">
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-node"></i>
           </div>
-          <p class="text-center mt-3">TypeScript</p>
+          <p class="text-center">TypeScript</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-node"></i>
           </div>
-          <p class="text-center mt-3">NodeJS</p>
+          <p class="text-center">NodeJS</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-php"></i>
           </div>
-          <p class="text-center mt-3">PHP</p>
+          <p class="text-center">PHP</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-laravel"></i>
           </div>
-          <p class="text-center mt-3">Laravel</p>
+          <p class="text-center">Laravel</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-python"></i>
           </div>
-          <p class="text-center mt-3">Python</p>
+          <p class="text-center">Python</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-google"></i>
           </div>
-          <p class="text-center mt-3">Go</p>
+          <p class="text-center">Go</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fas fa-code"></i>
           </div>
-          <p class="text-center mt-3">AI</p>
+          <p class="text-center">AI</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fas fa-code"></i>
           </div>
-          <p class="text-center mt-3">Serverless</p>
+          <p class="text-center">Serverless</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-aws"></i>
           </div>
-          <p class="text-center mt-3">Amazon Web Services (AWS)</p>
+          <p class="text-center">Amazon Web Services (AWS)</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-aws"></i>
           </div>
-          <p class="text-center mt-3">Elastic Container Service</p>
+          <p class="text-center">Elastic Container Service</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-aws"></i>
           </div>
-          <p class="text-center mt-3">Lambda Function</p>
+          <p class="text-center">Lambda Function</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-aws"></i>
           </div>
-          <p class="text-center mt-3">Simple Queue Service</p>
+          <p class="text-center">Simple Queue Service</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-aws"></i>
           </div>
-          <p class="text-center mt-3">Managed Streaming Kafka</p>
+          <p class="text-center">Managed Streaming Kafka</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-aws"></i>
           </div>
-          <p class="text-center mt-3">Simple Storage Service</p>
+          <p class="text-center">Simple Storage Service</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-aws"></i>
           </div>
-          <p class="text-center mt-3">Relational Database Service</p>
+          <p class="text-center">Relational Database Service</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-aws"></i>
           </div>
-          <p class="text-center mt-3">DynamoDB</p>
+          <p class="text-center">DynamoDB</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-html5"></i>
           </div>
-          <p class="text-center mt-3">HTML</p>
+          <p class="text-center">HTML</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-css3-alt"></i>
           </div>
-          <p class="text-center mt-3">CCS</p>
+          <p class="text-center">CCS</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-js"></i>
           </div>
-          <p class="text-center mt-3">JavaScript</p>
+          <p class="text-center">JavaScript</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-react"></i>
           </div>
-          <p class="text-center mt-3">React</p>
+          <p class="text-center">React</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-docker"></i>
           </div>
-          <p class="text-center mt-3">Docker</p>
+          <p class="text-center">Docker</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="far fa-eye"></i>
           </div>
-          <p class="text-center mt-3">New Relic</p>
+          <p class="text-center">New Relic</p>
         </div>
-        <div class="col-md-3 mb-5">
+        <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="skills_icons">
             <i class="fab fa-github"></i>
           </div>
-          <p class="text-center mt-3">GitHub</p>
+          <p class="text-center">GitHub</p>
         </div>
       </div>
     </div>
@@ -217,18 +214,18 @@
     <div class="container-fluid career">
       <div class="container">
         <h1>Career</h1>
-        <div class="row mb-5">
+        <div class="row">
           <div class="col-md-6">
-            <div class="mb-1">
+            <div>
               <h3>MadeiraMadeira</h3>
               <small>Staff Engineer | 2024 - atual</small>
             </div>
             <p>Customer Experience - Tech</p>
           </div>
         </div>
-        <div class="row mb-5">
-          <div class="col-md-6 offset-md-7">
-            <div class="mb-1">
+        <div class="row">
+          <div class="col-md-6 offset-md-6">
+            <div>
               <h3>MadeiraMadeira</h3>
               <small>Tech Lead - Senior Software Engineer | 2021 - 2024</small>
             </div>
@@ -244,15 +241,15 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="mb-1">
+            <div>
               <h3>MadeiraMadeira</h3>
               <small>System Analyst | 2020 - 2021</small>
             </div>
             <p>Customer Communication - Tech</p>
           </div>
         </div>
-        <div class="row mb-5">
-          <div class="col-md-6 offset-md-7">
+        <div class="row">
+          <div class="col-md-6 offset-md-6">
             <div class="mb-1">
               <h3>Straube Design & Tech</h3>
               <small>Developer | 2018 - 2020</small>
@@ -266,11 +263,8 @@
       </div>
     </div>
 
-    <div class="container-fluid business-footer">
-    </div>
-
     <footer>
-      <p class="mb-0">© copyright 2025</p>
+      <p class="mb-0">© 2025 Lucas Henrique Cardoso Galdino</p>
     </footer>
   </body>
 </html>
